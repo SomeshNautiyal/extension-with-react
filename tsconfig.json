@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowImportingTsExtensions": true,
+    "noEmit": true,  
+    "jsx": "react-jsx", // This is for React 17+ JSX Transform
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*.tsx", "src/**/*.ts"]
+}
